@@ -1,0 +1,285 @@
+<!-- writeCode
+
+- Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-II | Background and Gradients</title>
+    <!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7f5cab6c93.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="heading">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers:23,004</p>
+        </div>
+        <div class="toggle">
+            Dark Mode 
+            <i class="fas fa-toggle-on"></i>
+        </div>
+    </header>
+    <main >
+        <section class = "current-status container">
+            <!-- Facebook -->
+            <div class = "social-media facebook">
+                <div class="top-border"></div>
+                <div class="head">
+                    <i class="fab fa-facebook-square"></i>
+                    <span class="handle"> @nathanf</span>
+                </div>
+                <div class="content">
+                    <div class="number">
+                        1987
+                    </div>
+                    <div class="label">
+                        followers
+                    </div>
+
+                </div>
+                <div class="foot">
+                    <i class="fas fa-caret-up"> 12 Today</i>                    
+                </div>
+            </div>
+            <!-- Twitter -->
+            <div class = "social-media twitter">
+                <div class="top-border"></div>
+                <div class="head">
+                    <i class="fab fa-twitter"></i>
+                    <span class="handle"> @nathanf</span>
+                </div>
+                <div class="content">
+                    <div class="number">
+                        1044
+                    </div>
+                    <div class="label">
+                        followers
+                    </div>
+
+                </div>
+                <div class="foot">
+                    <i class="fas fa-caret-up"> 99 Today</i>
+                </div>
+            </div>
+            <!-- Instagram -->
+            <div class = "social-media instagram">
+                <div class="top-border"></div>
+                <div class="head">
+                    <div class="insta-background">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span class="handle"> @realnathanf</span>
+                </div>
+                <div class="content">
+                    <div class="number">
+                        11k
+                    </div>
+                    <div class="label">
+                        followers
+                    </div>
+
+                </div>
+                <div class="foot">
+                    <i class="fas fa-caret-up"> 1099 Today</i>                    
+                </div>
+            </div>
+            <!-- Youtube -->
+            <div class = "social-media youtube">
+                <div class="top-border"></div>
+                <div class="head">
+                   <div class="youtube-background"> <i class="fab fa-youtube-square"></i></div>
+                    <span class="handle">Nathan F.</span>
+                </div>
+                <div class="content">
+                    <div class="number">
+                        8239
+                    </div>
+                    <div class="label">
+                        subscribers
+                    </div>
+
+                </div>
+                <div class="foot">
+                    <i class="fas fa-caret-down"> 144 Today</i>
+                </div>
+            </div>
+        </section>
+        <section class=" overview-today container">
+            <h2> Overview - Today </h2>
+            <div class="content-today">
+                <!-- Overview-1 -->
+                <div class="information">
+                    <div class="head-icon">
+                        <div class="head">
+                            Page Views
+                        </div>
+                        <div class="icon">
+                            <i class="fab fa-facebook-square"></i>
+                        </div>
+                    </div>
+                    <div class="number-change">
+                        <div class="number">
+                            87
+                        </div>
+                        <div class="change">
+                            <i class="fas fa-caret-up"> 3%</i>                            
+                        </div>
+                    </div>
+                </div>
+                     <!-- Overview-2 -->
+                     <div class="information">
+                        <div class="head-icon">
+                            <div class="head">
+                                Likes
+                            </div>
+                            <div class="icon">
+                                <i class="fab fa-facebook-square"></i>
+                            </div>
+                        </div>
+                        <div class="number-change">
+                            <div class="number">
+                                52
+                            </div>
+                            <div class="change">
+                                <i class="fas fa-caret-down"> 2%</i>                               
+                            </div>
+                        </div>
+                    </div>
+                         <!-- Overview-3 -->
+                <div class="information">
+                    <div class="head-icon">
+                        <div class="head">
+                           Likes
+                        </div>
+                        <div class="insta-background">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="number-change">
+                        <div class="number">
+                           5462
+                        </div>
+                        <div class="change">
+                            <i class="fas fa-caret-up"> 2257%</i>                        
+                        </div>
+                    </div>
+                </div>
+                     <!-- Overview-4 -->
+                     <div class="information">
+                        <div class="head-icon">
+                            <div class="head">
+                                Profile Views
+                            </div>
+                            <div class="insta-background">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="number-change">
+                            <div class="number">
+                                52k
+                            </div>
+                            <div class="change">
+                                <i class="fas fa-caret-up"> 1375%</i>                               
+                            </div>
+                        </div>
+                    </div>
+                         <!-- Overview-5 -->
+                <div class="information">
+                    <div class="head-icon">
+                        <div class="head">
+                            Retweets
+                        </div>
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                    <div class="number-change">
+                        <div class="number">
+                            117
+                        </div>
+                        <div class="change">
+                            <i class="fas fa-caret-up"> 303%</i>                            
+                        </div>
+                    </div>
+                </div>
+                     <!-- Overview-6 -->
+                     <div class="information">
+                        <div class="head-icon">
+                            <div class="head">
+                                Likes
+                            </div>
+                            <div class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="number-change">
+                            <div class="number">
+                                507
+                            </div>
+                            <div class="change">
+                                <i class="fas fa-caret-up"> 553%</i>
+                            </div>
+                        </div>
+                    </div>
+                         <!-- Overview-7 -->
+                <div class="information">
+                    <div class="head-icon">
+                        <div class="head">
+                            Likes
+                        </div>
+                        <div class="youtube-background">
+                        <div class="icon">
+                            <i class="fab fa-youtube-square"></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="number-change">
+                        <div class="number">
+                            107
+                        </div>
+                        <div class="change">
+                            <i class="fas fa-caret-down"> 19%</i>
+                        </div>
+                    </div>
+                </div>
+                     <!-- Overview-8 -->
+                     <div class="information">
+                        <div class="head-icon">
+                            <div class="head">
+                                Total Views
+                            </div>
+                            <div class="youtube-background">
+                            <div class="icon">
+                                <i class="fab fa-youtube-square"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="number-change">
+                            <div class="number">
+                                1407
+                            </div>
+                            <div class="change">
+                                <i class="fas fa-caret-down"> 12%</i>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
